@@ -8,27 +8,7 @@ import Contact from './components/Contact';
 function App() {
   return (
     <div>
-      <section className="header">
-        <h1>
-          Tess Shearer
-        </h1>
-        <nav>
-          <ul>
-            <li>
-              About Me
-            </li>
-            <li>
-            Portfolio
-            </li>
-            <li>
-            Resume
-            </li>
-            <li>
-            Contact Me
-            </li>
-          </ul>
-        </nav>
-      </section>
+      <Nav></Nav>
       <section className="App">
         <main>
           <About></About>

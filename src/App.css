@@ -1,13 +1,25 @@
-/* .App {
+:root {
+  --dark-green: #2c3e1f;
+  --light-green: #b9baa3;
+  --off-white: #deded4;
+  --pink: #986c6a;
+  --brown: #784f41;
+}
+* {
+  background-color: var(--off-white);
+  color: var(--dark-green);
+}
+
+.App {
   text-align: center;
-} */
+}
 
 .header {
   /* Coloring */
-  background-color: #d6d5c9;
+  background-color: var(--light-green);
   border-style: solid;
-  border-color: #2c3e1f;
-/* Page placement */
+  border-color: var(--dark-green);
+  /* Page placement */
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -30,3 +42,37 @@
 }
 
 
+/* Portfolio Styles */
+
+.picture-link {
+  height: auto;
+  max-width: 100%;
+  border: 2px solid var(--pink);
+  border-radius: 4px;
+  padding: 4px;
+}
+
+.picture-link:hover {
+  padding: 6px;
+  background-color: var(--dark-green);
+  opacity: .5;
+  max-width: 100%;
+}
+
+.portfolio-apps {
+  padding: 20px;
+}
+
+.github-link {
+  color: var(--pink);
+  text-decoration: none;
+  font-size: large;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.github-link:hover {
+  color: var(--brown);
+  background-color: var(--light-green);
+  border: 1px solid var(--dark-green);
+}

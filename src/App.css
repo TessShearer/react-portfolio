@@ -1,10 +1,13 @@
+/* General Styling */
+
 :root {
   --dark-green: #2c3e1f;
   --light-green: #b9baa3;
   --off-white: #deded4;
-  --pink: #986c6a;
-  --brown: #784f41;
+  --light-brown: #bd9f8f;
+  --brown: #654034;
 }
+
 * {
   background-color: var(--off-white);
   color: var(--dark-green);
@@ -14,6 +17,9 @@
   text-align: center;
 }
 
+
+/* Header */
+
 .header {
   /* Coloring */
   background-color: var(--light-green);
@@ -21,7 +27,7 @@
   border-color: var(--dark-green);
   /* Page placement */
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   position: -webkit-sticky;
   position: sticky;
@@ -30,7 +36,8 @@
 }
 
 .header nav {
-  margin: 7px,
+  margin: 7px;
+  background-color: var(--light-green);
 }
 
 .header nav ul {
@@ -39,15 +46,57 @@
   justify-content: space-between;
   align-items: center;
   list-style: none;
+  background-color: var(--light-green);
+}
+
+.header nav ul li {
+  background-color: var(--light-green);
+  padding: 5px 10px;
+}
+
+.header nav ul li:hover {
+  color: var(--brown);
+  background-color: var(--off-white);
+  border: 2px solid var(--brown);
+  border-radius: 5px;
+}
+
+.header h1 {
+  background-color: var(--light-green);
+  padding: 5px 10px;
 }
 
 
-/* Portfolio Styles */
+/* About Me */
+
+#about {
+  color: var(--brown);
+}
+
+.self-portrait {
+  padding: 3px;
+  margin: 20px;
+  border: 2px solid var(--brown);
+  border-radius: 10px;
+}
+
+.bio {
+  padding: 5px;
+  margin: 20px;
+  border: 2px solid var(--brown);
+  border-radius: 10px;
+  background-color: var(--light-brown);
+  color: var(--brown);
+  font-size: larger;
+}
+
+
+/* Portfolio */
 
 .picture-link {
   height: auto;
   max-width: 100%;
-  border: 2px solid var(--pink);
+  border: 2px solid var(--brown);
   border-radius: 4px;
   padding: 4px;
 }
@@ -64,7 +113,7 @@
 }
 
 .github-link {
-  color: var(--pink);
+  color: var(--brown);
   text-decoration: none;
   font-size: large;
   padding: 5px;
@@ -75,4 +124,105 @@
   color: var(--brown);
   background-color: var(--light-green);
   border: 1px solid var(--dark-green);
+}
+
+
+/* Resume */
+
+.resume p {
+padding: 20px;
+}
+
+.resume a {
+  color: var(--dark-green);
+  text-decoration: none;
+  padding: 5px;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.resume a:hover {
+  color: var(--dark-green);
+  background-color: var(--light-green);
+  border: 2px solid var(--dark-green);
+  border-radius: 5px;
+}
+
+/* Contact Styles */
+.contact-form {
+  background-color: var(--brown);
+  border: 2px solid var(--dark-green);
+  border-radius: 4px;
+  display: inline-block;
+  padding: 2px;
+  width: 75%;
+  margin: 3.5%;
+  text-align: center;
+}
+
+.contact-form h3 {
+  font-size: 24px;
+  margin: 0;
+  padding-top: 5px;
+}
+
+form input {
+  display: block;
+  padding: 7px 15px;
+  font-size: 16px;
+  max-width: 50%;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.contact-form button {
+  background-color: var(--light-green);
+  border-radius: 8px;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.contact-form button:hover {
+  opacity: .8;
+}
+
+.error-text {
+  padding: 5px;
+  background-color: rgb(242, 76, 76);
+  border: 2px solid rgb(249, 2, 2);
+  color: darkred;
+  font-weight: bold;
+  margin: 5px 0
+}
+
+
+/* Footer */
+.footer {
+  /* Coloring */
+  background-color: var(--light-green);
+  border-style: solid;
+  border-color: var(--dark-green);
+  /* Page placement */
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 3px;
+}
+
+.footer a {
+  background-color: var(--light-green);
+  color: var(--dark-green);
+  text-decoration: none;
+  padding: 5px;
+}
+
+.footer a:hover {
+  color: var(--brown);
+  background-color: var(--off-white);
+  border: 2px solid var(--brown);
+  border-radius: 5px;
 }

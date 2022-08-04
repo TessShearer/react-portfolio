@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.6e9d6c58.css",
+    "main.js": "/react-portfolio/static/js/main.eeb339f1.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/afterparty_screenshot.png": "/react-portfolio/static/media/afterparty_screenshot.91195ec8e2c66296aad3.png",
+    "static/media/portfolio.png": "/react-portfolio/static/media/portfolio.da848aca499b4f002760.png",
+    "static/media/social-network-api.png": "/react-portfolio/static/media/social-network-api.cf3235ebca127120873a.png",
+    "static/media/Run-Buddy.jpeg": "/react-portfolio/static/media/Run-Buddy.1a76fbea3a5449b301a3.jpeg",
+    "static/media/Code-Quiz-Screenshot.png": "/react-portfolio/static/media/Code-Quiz-Screenshot.19a6065529999e1621db.png",
+    "static/media/self.jpg": "/react-portfolio/static/media/self.9e033ccbd7279f3ef582.jpg",
+    "static/media/Resume.pdf": "/react-portfolio/static/media/Resume.3fd3c3c6ea68c0fcc1ab.pdf",
+    "static/media/weather-dashboard.png": "/react-portfolio/static/media/weather-dashboard.e9e118f68fe0449ae7a0.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.6e9d6c58.css.map": "/react-portfolio/static/css/main.6e9d6c58.css.map",
+    "main.eeb339f1.js.map": "/react-portfolio/static/js/main.eeb339f1.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6e9d6c58.css",
+    "static/js/main.eeb339f1.js"
+  ]
+}
